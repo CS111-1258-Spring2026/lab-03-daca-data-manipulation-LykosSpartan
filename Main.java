@@ -73,12 +73,12 @@ public class Main
 
 
 																																																																																							
-	int difference = JDNTwo - JDNOne;
+	int difference = JDNOne - JDNTwo;
 
 
 	/***** OUTPUT SECTION *****/
 System.out.println("Julian Day Number for today's date," + todayDate + ", is" + JDNOne);
 System.out.println("Julian Day Number for birthday," + BDay + ", is" + JDNTwo);
-System.out.println("The difference in days is " + difference + ", which makes you approximately 101 years old!");
+System.out.println("The difference in days is " + difference + ", which makes you approximately " + (difference/365) + " years old!");
   }																			
   }
