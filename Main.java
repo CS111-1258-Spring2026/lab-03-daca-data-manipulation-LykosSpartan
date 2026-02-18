@@ -78,8 +78,8 @@ public class Main
 int age = difference/365;
 
 	/***** OUTPUT SECTION *****/
-System.out.println("Julian Day Number for today's date," + todayDate + ", is" + JDNOne);
-System.out.println("Julian Day Number for birthday," + BDay + ", is" + JDNTwo);
+System.out.println("Julian Day Number for today's date, " + todayDate + ", is " + JDNOne);
+System.out.println("Julian Day Number for birthday, " + BDay + ", is " + JDNTwo);
 System.out.println("The difference in days is " + difference + ", which makes you approximately " + age +
 " years old!");
   }																			
